@@ -3,8 +3,8 @@
 import time,datetime,os,sys
 #import random,getopt
 #from rediscluster import StrictRedisCluster
-from lib.load import _load
-from lib.client import run
+from lib_im.load import _load
+from lib_im.client import run
 from multiprocessing import Process,Queue, Pool
 import getopt
 
